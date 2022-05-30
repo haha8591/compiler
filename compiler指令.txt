@@ -1,0 +1,11 @@
+#判斷回文 在ubuntu上實作
+flex proj.l
+bison -d proj.y
+gcc proj.tab.c lex.yy.c -lfl
+./a.out
+
+#計算機 在windows上實作
+flex finalproj.l
+bison -d finalproj.y
+gcc finalproj.tab.c lex.yy.c -lfl
+a
